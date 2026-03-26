@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - PetUnion Hub</title>
+    <meta name="description" content="Explore our library of articles on pet care, training, healthy food advice, and grooming guides.">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="PetUnion Hub Logo" class="nav-logo-img">
+            </a>
+            <button class="menu-toggle" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header relative">
+        <h1 class="fade-in">Pet Care, Training & Nutrition Blog</h1>
+        <p class="fade-in delay-1 max-w-2xl mx-auto">Explore our extensive library of vet-reviewed pet care tips, step-by-step dog training guides, puppy care advice, and the latest in pet food nutrition. Everything you need for a happy, healthy pet.</p>
+    </div>
+
+    <!-- Blog Section -->
+    <section class="section">
+        <!-- Filters -->
+        <div class="filter-bar fade-in delay-2">
+            <button class="filter-btn active" data-filter="all">All Posts</button>
+            <button class="filter-btn" data-filter="care">Pet Care</button>
+            <button class="filter-btn" data-filter="training">Dog Training</button>
+            <button class="filter-btn" data-filter="food">Pet Food</button>
+            <button class="filter-btn" data-filter="health">Pet Health</button>
+            <button class="filter-btn" data-filter="grooming">Grooming</button>
+        </div>
+
+        <!-- Grid -->
+        <div class="blog-grid fade-in delay-3">
+            <!-- Post 1 -->
+            <article class="blog-card" data-category="care puppy">
+                <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=1000&auto=format&fit=crop" alt="Cute dog running" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Pet Care Tips</span>
+                    <h3><a href="posts/puppy-care-guide.html">The Ultimate New Puppy Care Guide</a></h3>
+                    <p>Bringing a new puppy home is an exciting journey! Discover the essential steps to prepare your home and care for your new best friend.</p>
+                    <a href="posts/puppy-care-guide.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Post 2 -->
+            <article class="blog-card" data-category="training dogs">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=1000&auto=format&fit=crop" alt="Two dogs playing" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Dog Training</span>
+                    <h3><a href="posts/positive-reinforcement.html">5 Easy Dog Training Commands</a></h3>
+                    <p>Learn how to teach your dog the 5 fundamental commands using positive reinforcement techniques that work for any breed.</p>
+                    <a href="posts/positive-reinforcement.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Post 3 -->
+            <article class="blog-card" data-category="food care cats">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=1000&auto=format&fit=crop" alt="Cat eating" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Pet Food & Nutrition</span>
+                    <h3><a href="posts/best-pet-food.html">How to Read Pet Food Labels</a></h3>
+                    <p>Are you giving your pet the best nutrition? Learn how to easily decode pet food labels and understand exactly what is in their bowl.</p>
+                    <a href="posts/best-pet-food.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <!-- Post 4 -->
+            <article class="blog-card" data-category="care dogs cats">
+                <img src="https://images.unsplash.com/photo-1544568100-847a948585b9?q=80&w=1000&auto=format&fit=crop" alt="First time pet owner" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Pet Care Tips</span>
+                    <h3><a href="posts/first-time-pet-owner-checklist.html">Checklist for First-Time Pet Owners</a></h3>
+                    <p>Bringing home your very first pet? Here is our ultimate checklist covering supplies, setup, and pet care tips for first-time owners.</p>
+                    <a href="posts/first-time-pet-owner-checklist.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Post 5 -->
+            <article class="blog-card" data-category="grooming dogs">
+                <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=1000&auto=format&fit=crop" alt="Dog getting brushed" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Grooming Tips</span>
+                    <h3><a href="posts/diy-dog-grooming.html">DIY Dog Grooming: Keep Your Pet Clean at Home</a></h3>
+                    <p>Save money and bond with your pet by learning basic grooming skills at home. We cover nail trimming, brushing, and more.</p>
+                    <a href="posts/diy-dog-grooming.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Post 6 -->
+            <article class="blog-card" data-category="health care">
+                <img src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?q=80&w=1000&auto=format&fit=crop" alt="Veterinarian with dog" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Pet Health</span>
+                    <h3><a href="posts/vet-warning-signs.html">7 Warning Signs Your Pet Needs to See a Vet</a></h3>
+                    <p>Learn to recognize the subtle signs of illness in your pets. Early detection can save their life and save you money.</p>
+                    <a href="posts/vet-warning-signs.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Post 7 -->
+            <article class="blog-card" data-category="care cats">
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=1000&auto=format&fit=crop" alt="Cat looking out window" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Pet Care Tips</span>
+                    <h3><a href="posts/indoor-cat-happiness.html">How to Keep Your Indoor Cat Happy</a></h3>
+                    <p>Discover incredible pet care tips for keeping your indoor cat physically active, mentally stimulated, and perfectly happy.</p>
+                    <a href="posts/indoor-cat-happiness.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Post 8 -->
+            <article class="blog-card" data-category="training dogs">
+                <img src="https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8?q=80&w=1000&auto=format&fit=crop" alt="Dog walking on leash" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Dog Training</span>
+                    <h3><a href="posts/leash-training-guide.html">Stop the Pulling: How to Leash Train Your Dog</a></h3>
+                    <p>Tired of your dog dragging you down the street? Follow our step-by-step dog training guide to teach your dog to walk perfectly on a loose leash.</p>
+                    <a href="posts/leash-training-guide.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+
+
+            <!-- Post 10 -->
+            <article class="blog-card" data-category="health care">
+                <img src="images/senior-dog.jpg" alt="Old dog resting" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Pet Health</span>
+                    <h3><a href="posts/senior-pet-care.html">Caring for Senior Pets: Making Their Golden Years Shine</a></h3>
+                    <p>Discover essential health, nutrition, and comfort tips to ensure your aging senior pet lives their golden years in pure comfort and boundless joy.</p>
+                    <a href="posts/senior-pet-care.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Custom User Post 1 -->
+            <article class="blog-card" data-category="food care">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=1000&auto=format&fit=crop" alt="Dog food bowl" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Pet Food & Nutrition</span>
+                    <h3><a href="posts/best-dog-food-india.html">Best Dog Food in India (Healthy & Budget Options)</a></h3>
+                    <p>Choosing the right food for your dog is essential for their health. With so many options available in India, it can be confusing to decide what’s best.</p>
+                    <a href="posts/best-dog-food-india.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Custom User Post 2 -->
+            <article class="blog-card" data-category="training dogs">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=1000&auto=format&fit=crop" alt="Training two dogs playing" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Dog Training</span>
+                    <h3><a href="posts/train-dog-at-home.html">How to Train Your Dog at Home</a></h3>
+                    <p>Training your dog at home is not only cost-effective but also strengthens your bond and improves obedience.</p>
+                    <a href="posts/train-dog-at-home.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Custom User Post 3 -->
+            <article class="blog-card" data-category="grooming care">
+                <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=1000&auto=format&fit=crop" alt="Dog getting brushed" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Grooming</span>
+                    <h3><a href="posts/pet-grooming-at-home.html">Pet Grooming at Home (Beginner Guide)</a></h3>
+                    <p>Grooming is essential for your pet’s hygiene and health. Learn the essential bathing steps and trimming tips.</p>
+                    <a href="posts/pet-grooming-at-home.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Custom User Post 4 -->
+            <article class="blog-card" data-category="health care">
+                <img src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?q=80&w=1000&auto=format&fit=crop" alt="Vet checking dog" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Pet Health</span>
+                    <h3><a href="posts/common-pet-health-problems.html">Common Pet Health Problems & Prevention</a></h3>
+                    <p>Pets can suffer from various health issues, but early preventative care can stop the vast majority of serious problems.</p>
+                    <a href="posts/common-pet-health-problems.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Reused footer HTML -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <img src="images/logo.png" alt="PetUnion Hub Logo" class="footer-logo-img">
+                <p>Your trusted guide for pet care, training, health, and happiness. We believe every pet deserves a loving and informed home.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Categories</h3>
+                <ul class="footer-links">
+                    <li><a href="blog.html?category=care">Pet Care</a></li>
+                    <li><a href="blog.html?category=training">Dog Training</a></li>
+                    <li><a href="blog.html?category=food">Pet Food</a></li>
+                    <li><a href="blog.html?category=health">Pet Health</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 PetUnion Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

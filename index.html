@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetUnion Hub - Top Pet Care Tips, Dog Training & Nutrition</title>
+    <meta name="description" content="Welcome to PetUnion Hub, your ultimate destination for pet care tips, puppy care, dog training, pet food nutrition, grooming guides, and pet health advice. Join our community of pet lovers today!">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css?v=4">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="PetUnion Hub Logo" class="nav-logo-img">
+            </a>
+            <button class="menu-toggle" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero fade-in">
+        <div class="hero-content">
+            <h1>Your Ultimate Guide to Pet Care, Health & Training</h1>
+            <p>Welcome to <strong>PetUnion Hub</strong>! Whether you are a first-time pet parent looking for comprehensive puppy care guides or an experienced owner seeking expert dog training and nutrition advice, we have you covered. Join a loving community dedicated to the unconditional bond between you and your pet.</p>
+            <div class="hero-buttons">
+                <a href="blog.html" class="btn-primary">Explore Our Guides</a>
+                <a href="contact.html" class="btn-secondary">Join The Community</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1544568100-847a948585b9?q=80&w=1000&auto=format&fit=crop" alt="Happy dog and owner">
+        </div>
+    </section>
+
+    <!-- Why Pets Matter Section -->
+    <section class="section fade-in" style="background-color: var(--card-bg); border-top: 1px solid rgba(0,0,0,0.05); border-bottom: 1px solid rgba(0,0,0,0.05);">
+        <div class="section-header" style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h2>Why Pet Health & Happiness Matter</h2>
+            <p style="font-size: 1.25rem; line-height: 1.8; margin-top: 1.5rem; color: var(--text-secondary);">
+                Pets aren’t just animals—they are family. From proper pet food nutrition to essential grooming tips, every choice you make impacts their wellbeing. At <strong>PetUnion Hub</strong>, our beginner-friendly articles, vet-reviewed pet health tips, and step-by-step training guides are designed to help you build a lifelong bond of trust and joy with your best friend.
+            </p>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section">
+        <div class="section-header fade-in delay-1">
+            <h2>What You'll Find Here</h2>
+            <p>Trusted pet care advice, step-by-step dog training, dog food reviews, and essential grooming tips.</p>
+        </div>
+        <div class="categories-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+            <a href="blog.html?category=health" class="category-card fade-in delay-2">
+                <i class="fa-solid fa-stethoscope category-icon"></i>
+                <h3>Trusted Health Advice</h3>
+            </a>
+            <a href="blog.html?category=training" class="category-card fade-in delay-2">
+                <i class="fa-solid fa-bone category-icon"></i>
+                <h3>Step-by-Step Training</h3>
+            </a>
+            <a href="blog.html?category=stories" class="category-card fade-in delay-3">
+                <i class="fa-solid fa-book-open category-icon"></i>
+                <h3>Heartwarming Stories</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- Featured Blogs -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Latest & Featured Posts</h2>
+            <p>Read our most recent guides for pet owners</p>
+        </div>
+        <div class="blog-grid" id="featured-posts">
+            <!-- Featured posts -->
+            <article class="blog-card fade-in">
+                <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=1000&auto=format&fit=crop" alt="Cute dog running" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Pet Care Tips</span>
+                    <h3><a href="posts/puppy-care-guide.html">The Ultimate New Puppy Care Guide</a></h3>
+                    <p>Bringing a new puppy home is an exciting journey! Discover the essential steps to prepare your home and care for your new best friend.</p>
+                    <a href="posts/puppy-care-guide.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="blog-card fade-in delay-1">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=1000&auto=format&fit=crop" alt="Two dogs playing" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Dog Training</span>
+                    <h3><a href="posts/positive-reinforcement.html">5 Easy Dog Training Commands</a></h3>
+                    <p>Learn how to teach your dog the 5 fundamental commands using positive reinforcement techniques that work for any breed.</p>
+                    <a href="posts/positive-reinforcement.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="blog-card fade-in delay-2">
+                <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=1000&auto=format&fit=crop" alt="Cat eating" class="blog-card-img">
+                <div class="blog-card-content">
+                    <span class="category-tag">Best Food for Pets</span>
+                    <h3><a href="posts/best-pet-food.html">How to Read Pet Food Labels</a></h3>
+                    <p>Are you giving your pet the best nutrition? Learn how to easily decode pet food labels and understand exactly what is in their bowl.</p>
+                    <a href="posts/best-pet-food.html" class="read-more">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <img src="images/logo.png" alt="PetUnion Hub Logo" class="footer-logo-img">
+                <p>Your trusted guide for pet care, training, health, and happiness. We believe every pet deserves a loving and informed home.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Categories</h3>
+                <ul class="footer-links">
+                    <li><a href="blog.html?category=care">Pet Care</a></li>
+                    <li><a href="blog.html?category=training">Dog Training</a></li>
+                    <li><a href="blog.html?category=food">Pet Food</a></li>
+                    <li><a href="blog.html?category=health">Pet Health</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 PetUnion Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
